@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "auction",
+						"type": "address"
+					}
+				],
+				"name": "createAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "auction",
+						"type": "address"
+					}
+				],
+				"name": "endAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Database.sol": "Database"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/contracts/Auction.sol": {
+			"keccak256": "0xe0f335272d4af68a60ed4cdc112c28b9cc30a7ffcfa4de50e14e6dcdf0112f06",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1ae4ee32a102cb0939d57401875c3908527b2823c2b861deff6e744ffdd14d72",
+				"dweb:/ipfs/QmQzhPWKND4UsaKjgRN8J3H9UpYq8jCTve566wBFdcQjKW"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+			"keccak256": "0xf101e8720213560fab41104d53b3cc7ba0456ef3a98455aa7f022391783144a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e7820bcf567e6892d937c3cb10db263a4042e446799bca602535868d822384e",
+				"dweb:/ipfs/QmPG2oeDjKncqsEeyYGjAN7CwAJmMgHterXGGnpzhha4z7"
+			]
+		},
+		"@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+			"keccak256": "0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6",
+				"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx"
+			]
+		},
+		"contracts/Database.sol": {
+			"keccak256": "0x69d9a3e9b219f2aea5ffd48b41c793c70d45f54ce49a2fd11eeef9631dbff6ba",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://40aab9c57d7880f3cf855fb8834e9b8719dcc6d4ead84fd1396628a6ef988091",
+				"dweb:/ipfs/QmaJywZYiLhMZe7bdhhPZT8iBCX3n9UQ4TNtJjhHnUabeo"
+			]
+		}
+	},
+	"version": 1
+}
