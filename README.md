@@ -1,3 +1,3 @@
 # Solidity-Auction
  
-Honors Topics in CS Project
+### Honors Topics in CS Project
