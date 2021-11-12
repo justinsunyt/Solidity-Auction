@@ -44,11 +44,11 @@ contract Auction {
     
     function end() public payable afterEnd {
         nft.safeTransferFrom(address(this), topBidder, nftId);
-        owner.transfer(currentPrice);
+        // owner.transfer(currentPrice);
     }
     
     function emergencyEnd() public payable {
         nft.safeTransferFrom(address(this), topBidder, nftId);
-        owner.transfer(currentPrice);
+        // owner.transfer(currentPrice);
     }
 }
