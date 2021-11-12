@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "activeAuctions",
+				"outputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "contract Auction",
 						"name": "auction",
 						"type": "address"
@@ -29,6 +48,44 @@
 				"name": "endAuction",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pastAuctions",
+				"outputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "winners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -60,11 +117,11 @@
 	},
 	"sources": {
 		"/contracts/Auction.sol": {
-			"keccak256": "0xe0f335272d4af68a60ed4cdc112c28b9cc30a7ffcfa4de50e14e6dcdf0112f06",
+			"keccak256": "0x36ea97cc0b45d72a535764ef7918b2c0eb012de0d6f44999bbace25669da6efe",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1ae4ee32a102cb0939d57401875c3908527b2823c2b861deff6e744ffdd14d72",
-				"dweb:/ipfs/QmQzhPWKND4UsaKjgRN8J3H9UpYq8jCTve566wBFdcQjKW"
+				"bzz-raw://fbe4d4932b61284d9754593b28b3e72f7417006dfc11466726cb161e9b9c86bb",
+				"dweb:/ipfs/QmebAbL3jJHyFXS1qBYLS4QFteE5EipMdYnyh1Gq3QFX68"
 			]
 		},
 		"@openzeppelin/contracts/token/ERC721/IERC721.sol": {
@@ -84,11 +141,11 @@
 			]
 		},
 		"contracts/Database.sol": {
-			"keccak256": "0x69d9a3e9b219f2aea5ffd48b41c793c70d45f54ce49a2fd11eeef9631dbff6ba",
+			"keccak256": "0x9ca4d42daaf0b98cc526520ea51a0bc86bf17ae144f62640b48b2efe4a0df623",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://40aab9c57d7880f3cf855fb8834e9b8719dcc6d4ead84fd1396628a6ef988091",
-				"dweb:/ipfs/QmaJywZYiLhMZe7bdhhPZT8iBCX3n9UQ4TNtJjhHnUabeo"
+				"bzz-raw://adee5e6a5d8f674ef6309663713c82ce89cf547618b464c472bdafb22009eda7",
+				"dweb:/ipfs/QmRifZrSYzGd3VifoF6Md7NV5hyKsbKDwwX3kpQU6dDkCY"
 			]
 		}
 	},

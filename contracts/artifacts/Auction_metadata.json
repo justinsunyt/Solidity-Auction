@@ -6,6 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "contract IERC721",
@@ -28,23 +46,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "bidder",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "price",
-						"type": "uint256"
-					}
-				],
-				"name": "bid",
+				"name": "configure",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,6 +62,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "emergencyEnd",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -192,11 +201,11 @@
 			]
 		},
 		"contracts/Auction.sol": {
-			"keccak256": "0xe0f335272d4af68a60ed4cdc112c28b9cc30a7ffcfa4de50e14e6dcdf0112f06",
+			"keccak256": "0x874b514a78a4d80765a40717a084bb410a65d0324b62cc52f2e459acd413f1d5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1ae4ee32a102cb0939d57401875c3908527b2823c2b861deff6e744ffdd14d72",
-				"dweb:/ipfs/QmQzhPWKND4UsaKjgRN8J3H9UpYq8jCTve566wBFdcQjKW"
+				"bzz-raw://8fa019c9c51b85dbe77dd973e2d76f2b16e0a622accfeecabc4ccd4bf82bf4d4",
+				"dweb:/ipfs/QmSDsTH4Yt7HapnpJ58nSt6bn2wDyqjwxfeLWpvkEeiy6z"
 			]
 		}
 	},
